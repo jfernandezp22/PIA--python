@@ -1,0 +1,5 @@
+nombre_completo = str(input("Introduzca su nombre completo: "))
+print(nombre_completo.upper())
+print(nombre_completo.lower())
+nombre_completo_split = nombre_completo.split(" ")
+print(nombre_completo_split[0].capitalize(), nombre_completo_split[1].capitalize(), nombre_completo_split[2].capitalize())
